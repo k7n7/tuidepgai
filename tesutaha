@@ -29,7 +29,7 @@ return {
     ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
         ["Enable"] = true,
         ["Send to"] = "tesutaha",
-        ["Above amount"] = 200000000000
+        ["Above amount"] = 100000000000
     },
     ["Auto Claim Mailbox"] = true, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
     ["Auto Daycare"] = false, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
