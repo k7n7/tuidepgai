@@ -6,4 +6,4 @@ return {
     ["Send all"] = true, -- Send all pet to break or not, false will send single to break
     ["Performance Mode"] = false, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
     ["White Screen"] = false, -- Enable for disable game's rendering for less CPU/GPU usage
-}S
+}
