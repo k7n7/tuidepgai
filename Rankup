@@ -1,0 +1,9 @@
+return {
+    ["Unlock Mystic Mine"] = true, -- Make sure have atleast 100,100,000 gems and a huge pet
+    ["Auto Upgrade"] = true, -- Use Diamond to Upgrade your passives
+    ["Auto Daycare"] = false, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
+    ["Farm Cooldown"] = 0, -- Delay between switch to farm another thing (higher = less crashing)
+    ["Send all"] = true, -- Send all pet to break or not, false will send single to break
+    ["Performance Mode"] = false, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
+    ["White Screen"] = true, -- Enable for disable game's rendering for less CPU/GPU usage
+}S
