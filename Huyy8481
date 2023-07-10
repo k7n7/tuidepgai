@@ -49,7 +49,7 @@ return {
         ["Player nearby"] = false, -- Will hop to low player server if there's a player nearby Mystic Mine (2m cooldown)
         ["Out of diamond"] = false, -- Will hop to low player server if there are no diamond left to farm
     },
-    ["Farm Cooldown"] = 0,2 -- Delay between switch to farm another thing (higher = less crashing)
+    ["Farm Cooldown"] = 0.2, -- Delay between switch to farm another thing (higher = less crashing)
     ["Send all"] = true, -- Send all pet to break or not, false will send single to break
     ["Performance Mode"] = truue, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
     ["Swap to Cyber Cavern"] = true, -- Will swap to Cyber Cavern if Mystic Mine out of Diamonds
