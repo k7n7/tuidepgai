@@ -1,6 +1,7 @@
 return {
     --[[
         Collapse methods:
+        + "Stand Still" -- Do nothing (still check for daycare/rewards)
         + "Farm Fruit" -- Farm fruits
         + "Volcano Chest" -- Open Volcano Egg/Farm Pirate Cove Chest
         + "Mansion Egg" -- Open Dog Egg/Farm Dog Mansion Chest
@@ -24,7 +25,8 @@ return {
         -- Mainly farm Orange/Apple fruit while farming Diamonds
         -- Mainly farm Apple/Banana/ while opening Egg
         ["Enable"] = true,
-        ["Farm when under"] = 50
+        ["Farm when under"] = 50,
+        ["Farm until"] = 200,
     },
     ["Auto Mailbox"] = { -- Auto send Diamonds to a person thru Mailbox when your Diamonds more than set diamond
         ["Enable"] = true,
@@ -32,7 +34,8 @@ return {
         ["Above amount"] = 50000000000
     },
     ["Auto Claim Mailbox"] = true, -- Claim Diamonds on the account received the Diamonds from Auto Mailbox
-    ["Auto Daycare"] = false, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
+    ["Auto Daycare"] = true, -- Auto Claim Daycare and Enroll unequipped/unlocked Pets in your Inventory
+    ["Auto Collect Rewards"] = true, -- Auto Collect Rank/VIP Rewards
     ["Auto Leave"] = {
         ["Ping Froze"] = true,
         ["Got kicked"] = true,
@@ -46,10 +49,11 @@ return {
         ["Player nearby"] = false, -- Will hop to low player server if there's a player nearby Mystic Mine (2m cooldown)
         ["Out of diamond"] = false, -- Will hop to low player server if there are no diamond left to farm
     },
-    ["Farm Cooldown"] = 0.2, -- Delay between switch to farm another thing (higher = less crashing)
+    ["Farm Cooldown"] = 0,2 -- Delay between switch to farm another thing (higher = less crashing)
     ["Send all"] = true, -- Send all pet to break or not, false will send single to break
-    ["Performance Mode"] = true, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
+    ["Performance Mode"] = truue, -- Enable if you want to AFK overnight, farm will be slower but low chance crashing roblox 
     ["Swap to Cyber Cavern"] = true, -- Will swap to Cyber Cavern if Mystic Mine out of Diamonds
+    ["Legit Mode"] = true, -- Walk to points on map legit like an normal player, recommended enable with Performance Mode, farm will be slower
     ["White Screen"] = true, -- Enable for disable game's rendering for less CPU/GPU usage
     ["Discord Webhook"] = {
         ["Stats Tracker"] = {
