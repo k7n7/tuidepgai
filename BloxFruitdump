@@ -1,0 +1,32 @@
+return {
+["Raid if Maxed Blox Fruit"] = true,
+    ["Farm boss drops while not maxed"] = true,
+    ["Farm Blox Fruit Mastery if maxed"] = true,
+    ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm",
+    ["Extra time Farm until unlock skills"] = true,
+    ["Ignore Hop Server Type"] = {
+        ["[Main] Server Hop"] = true,
+        ["[Farm] Server Hop if Player nearby"] = true,
+        ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = true,
+    },
+    ["Hop Server Delay"] = 0,
+    ["Ignore Action"] = {
+        ["Get Godhuman"] = false,
+        ["Get Rengoku"] = true,
+        ["Get True Triple Katana"] = true,
+        ["Get Hallow Scythe"] = true,
+        ["Get Cursed Dual Katana"] = false,
+        ["Get Soul Guitar"] = false,
+        ["Awake Current Blox Fruit"] = false,
+    },
+    ["Buy Haki"] = {
+        ["Buy Enhancement"] = false,
+        ["Buy Skyjump"] = false,
+        ["Buy Flash Step"] = false,
+        ["Buy Observation"] = false,
+    },
+    ["Blox Fruit Sniper"] = {"Magma-Magma","Dark-Dark","Light-Light"},
+    ["Main Blox Fruit"] = {},
+    ["Eat Sniper Blox Fruits"] = true,
+    ["Black Screen"] = true,
+}
